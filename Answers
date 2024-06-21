@@ -1,0 +1,32 @@
+Choose an OS: For this setup, I used Windows 11.
+I went to the Windows 11 download page https://www.microsoft.com/software-download/windows11. I followed the instructions to download the Windows 11 installation media. After creating a bootable USB drive, I followed the on-screen instructions to install Windows 11.
+
+Install Text editor:
+I visited the Visual Studio Code download page  https://code.visualstudio.com/Download. I downloaded the appropriate installer for my OS. I ran the installer and followed the setup instructions.
+
+Set Up Version Control System
+I chose to Install Git: I went to the Git download page. I downloaded and ran the installer. I followed the default installation settings.
+Create a GitHub Account: 
+I visited GitHub. I signed up for a new account.
+Initialize a Git Repository:
+I opened Git Bash (installed with Git). I navigated to my project directory using the cd command. I initialized a Git repository: git remote add origin https://github.com/CharlesBanda/gitsession.git git push -u origin master
+
+Install Necessary Programming Languages and Runtimes: 
+Install Python: I visited the Python download page http://wwww.python.org. I downloaded the installer for the latest version of Python. I ran the installer and ensured I checked the box to add Python to my PATH. I verified the installation: python --version
+
+Install Package Managers
+Install pip: Pip is installed by default with Python.
+I verified the installation: pip --version
+
+Configure a Database (MySQL)
+Install MySQL: I went to the MySQL download page https://dev.mysql.com/downloads/windows/installer/5.7.html. I downloaded and ran the MySQL Installer. I followed the setup instructions to install MySQL server and workbench.
+
+Set Up Development Environments and Virtualization (Optional)
+Consider Using Docker:I visited the Docker download page. I downloaded and installed Docker Desktop. I followed the instructions to set up Docker and verified the installation.
+
+Explore Extensions and Plugins
+Visual Studio Code Extensions: I opened Visual Studio Code. I went to the Extensions view by clicking the Extensions icon in the Activity Bar on the side of the window or by pressing Ctrl+Shift+X. I searched for and installed extensions such as: 
+Python
+GitLens — Git supercharged, Prettier — Code formatter, ESLint
+
+Reflection: During the setup process, I encountered an issue with installing MySQL due to a missing Visual C++ Redistributable package. To resolve this, I downloaded and installed the required package from the Microsoft website. This experience highlighted the importance of reading error messages carefully and searching for solutions online.
